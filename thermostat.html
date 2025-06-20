@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <style>
+    nav {
+      background-color: #bcbcbc;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: #00afff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    nav a:hover,
+    nav a.active {
+      background-color: #0071a4;
+      color: #ffffff;
+    }
+  </style>
   <nav>
     <a href="index.html">Self-assessment</a>
     <a href="thermostat.html" class="active">Thermostat.py</a>
